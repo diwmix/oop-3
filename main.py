@@ -46,7 +46,7 @@ getFile('Students.txt', students)
 getFile('Topics.txt', topics)
 
 while True:
-    input("Нажмите Enter для выбора студента и темы: \n")
+    input("Нажміть Enter для вибору студента і теми: \n")
     assignTopics()
     if not topics:
         print("Нема доступних тем.")
